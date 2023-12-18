@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #2b2b2b;
+    color: #ffffff;  
+}
+
+.conteiner{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+    font-family: 'Russo One', sans-serif;
+    font-weight: normal; 
+
+}
+
+body, input, text area{
+    font-family: 'Archivo', sans-serif;
+}
+
+#imagens{
+    height: 45px;
+    width: 45px;
+}
+
+header nav {
+    flex-grow: 1;
+}
+
+section h2, section h3, form button {
+    font-family: 'Russo One', sans-serif;
+    font-weight: normal;
+    color:  #555555;  
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 8px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+    font-family: 'Russo One', sans-serif;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+header .conteiner {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.conteiner img {
+    height: 400px;
+    width: 1200px;
+}
+
+.conteiner h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section p{
+    margin: 8px 0;
+}
+
+.social-links img {
+    height: 24px;
+    width: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 6px;
+}
+
+section h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #555555;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #afabab;
+}
+
+input:focus, textarea:focus {
+    outline-color: #555555;
+}
+
+footer{
+    background-color: #2b2b2b;
+    padding: 10px 0;
+    margin-top: 10px;    
+    }
+
+    footer p {
+        text-align: center;
+        margin-top: 0;
+        color: #ffffff; 
+    }
